@@ -17,7 +17,7 @@ let server = http.createServer(app);
 
 app.use("/", initWebRoutes());
 
-let port = process.env.PORT || 1122;
+let port = process.env.PORT || 3000;
 
 server.listen(port, ()=>{
     console.log(`app is running at port: http://localhost:${port}`);
