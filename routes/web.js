@@ -15,7 +15,7 @@ module.exports = () => {
     // cau hình router trang chủ
     // ##################
     router.get('/', (req, res, next)=> {
-        result=>res.send('result')
+        res.send('result')
     });
     // router.get('/story', (req, res, next)=>{
     //     polulation(req, res, next)
